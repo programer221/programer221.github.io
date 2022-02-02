@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#showcase {
+height: 100vh;
+        background-image: url(https://media.istockphoto.com/photos/abstract-planet-earth-and-the-glow-of-stars-in-space-picture-id1188338648?b=1&k=20&m=1188338648&s=170667a&w=0&h=UcYdVzCZYb3TJYQR9r4bpTnOwusn2bV_lsi0vywzKsQ=);
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+}
+
+#showcase h1 {
+    font-size: 50px;
+}
+
+#showcase p {
+font-size: 20px;
+width: 80%;
+}
+
+#showcase .button {
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#showcase  .button:hover {
+    background-color: #a11a8d;
+}
+
+/* SECTION */
+#section-a {
+    padding: 20px;
+    background-color: #ab2845;
+    color: #fff;
+    text-align: center;
+}
+
+
+#section-b {
+    padding: 20px;
+    background-color: #0f65b3;
+    color: #fff;
+    text-align: center;
+}
+
+#section-c {
+    display: flex;
+    color: #fff;
+}
+
+#section-c div {
+    padding: 20px;
+    text-align: center;
+}
+
+#section-c .box-1 {
+background-color: #cb35d6;
+}
+
+#section-c .box-2 {
+background-color: #15ad69;
+}
+
+#section-c .box-3 {
+    background-color: #dd5436;
+}
